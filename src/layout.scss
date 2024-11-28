@@ -21,20 +21,22 @@
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    flex-direction: column;
 
     @include lg{
-        background-color: orange;
         max-width: 1280px;
     }
 
     @include md{
-        background-color: lightblue;
         max-width: 768px;
     }
 
     @include sm{
-        background-color: rgb(214, 134, 134);
         max-width: 640px;
     }
     
+    .content {
+        flex: 1;
+    }
 }
