@@ -1,3 +1,19 @@
+@mixin sm {
+    @media(max-width:738px){
+        @content;
+    }
+}
+@mixin md {
+    @media(max-width:1024px){
+        @content;
+    }
+}
+@mixin lg {
+    @media(max-width:1366px){
+        @content;
+    }
+}
+
 .slider {
    width: 100%;
    height: 350px;
@@ -15,6 +31,7 @@
     background-color: black;
     justify-content: space-between;
     align-items: center;
+    z-index: 9990;
     
     .arrow {
         flex: 1;
@@ -27,6 +44,14 @@
 
             &.right {
                 transform: rotate(180deg);
+            }
+
+            @include md {
+                width: 30px;
+            }
+
+            @include sm {
+                width: 20px;
             }
         }
     }
