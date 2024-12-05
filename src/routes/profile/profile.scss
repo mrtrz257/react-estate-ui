@@ -1,0 +1,96 @@
+@mixin sm {
+    @media(max-width:738px){
+        @content;
+    }
+}
+@mixin md {
+    @media(max-width:1024px){
+        @content;
+    }
+}
+@mixin lg {
+    @media(max-width:1366px){
+        @content;
+    }
+}
+
+.profile {
+    display: flex;
+    height: 100%;
+
+    @include md {
+        flex-direction: column;
+        /* overflow: auto; */
+    }
+
+    .details {
+        flex: 3;
+        overflow-y: auto;
+        height: 80vh;
+
+        @include md {
+            flex: none;
+            height: 40vh;
+            margin-bottom: 30px;
+        }
+
+        .wrapper {
+            padding-right: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1 {
+                    font-weight: 300;
+                }
+
+                button {
+                    padding: 12px 24px;
+                    background-color: #fece51;
+                    cursor: pointer;
+                    border: none;
+                    border-radius: 7px;
+                }
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                span {
+                    display: flex;
+                    align-items: center;
+                    gap: 13px;
+                }
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+
+    .chatContainer {
+        flex: 2;
+        height: 100%;
+
+        @include md {
+            flex: none;
+            height: 40vh;
+        }
+
+        .wrapper {
+            padding: 0px 20px;
+            height: 100%;
+        }
+    }
+}

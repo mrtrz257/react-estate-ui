@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import ListPage from './routes/listPage/ListPage';
 import { SinglePage } from './routes/singlePage/SinglePage';
 import Login from './routes/login/Login';
+import Profile from './routes/profile/Profile';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/list' element={<ListPage />} />
           <Route path='/:id' element={<SinglePage />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/profile' element={<Profile />} />
         </Routes>
       </div>
 
