@@ -1,7 +1,13 @@
+@use '../../layout';
+
 .filter {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    @include layout.sm {
+        margin-bottom: 80px;
+    }
 
     h1 {
         font-weight: 300;
@@ -29,6 +35,10 @@
     .top {
         input {
             width: 100%;
+
+            @include layout.sm {
+                width: 66%;
+            }
         }
     }
 
@@ -37,12 +47,26 @@
         justify-content: space-between;
         gap: 20px;
 
+        @include layout.sm {
+            .item.right {
+                position: relative;
+                top: 75px;
+                right: 240px;
+            }
+        }
+
         button {
             width: 100px;
             padding: 10px;
             border: none;
             cursor: pointer;
             background-color: #fece51;
+
+            @include layout.sm {
+                position: relative;
+                top: 75px;
+                right: 240px;
+            }
 
             img {
               width: 24px;

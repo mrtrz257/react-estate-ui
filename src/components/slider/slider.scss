@@ -1,18 +1,4 @@
-@mixin sm {
-    @media(max-width:738px){
-        @content;
-    }
-}
-@mixin md {
-    @media(max-width:1024px){
-        @content;
-    }
-}
-@mixin lg {
-    @media(max-width:1366px){
-        @content;
-    }
-}
+@use '../../layout';
 
 .slider {
    width: 100%;
@@ -46,11 +32,11 @@
                 transform: rotate(180deg);
             }
 
-            @include md {
+            @include layout.md {
                 width: 30px;
             }
 
-            @include sm {
+            @include layout.sm {
                 width: 20px;
             }
         }
