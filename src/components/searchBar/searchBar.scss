@@ -42,6 +42,7 @@
             border: none;
             padding: 0px 10px;
             width: 200px;
+            text-indent: 3px;
 
             @include layout.lg {
                 padding: 0px 5px;
@@ -63,8 +64,12 @@
                 }
                 padding: 20px;
                 border: 1px solid #999;
-                border-bottom: none;
+                /* border-bottom: none; */
             }
+        }
+
+        .link-css {
+            width: max-content;
         }
 
         button {
@@ -72,19 +77,21 @@
             cursor: pointer;
             background-color: #fece51;
             flex: 1;
+            padding: 17px 25px;
 
             @include layout.lg {
-                padding: 20px;
+                padding: 17px 20px;
             }
 
             @include layout.sm {
                 padding: 10px;
                 border: 1px solid #999;
+                width: max-content;
             }
 
             img {
-                width: 24px;
-                height: 24px;
+                width: 25px;
+                height: 25px;
             }
         }
     }
