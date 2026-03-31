@@ -4,7 +4,7 @@ import "leaflet/dist/leaflet.css"
 import Pin from "../pin/Pin"
 
 const map = ( {items} ) => {
-    const position=[52.4797, -1.90269]
+    const position=[51.5074, -0.1278]
 
     return (
         <MapContainer center={position} zoom={7} scrollWheelZoom={true} className="map"> 

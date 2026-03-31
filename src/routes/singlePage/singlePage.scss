@@ -3,7 +3,8 @@
 .singlePage {
     display: flex;
     height: 100%;
-
+    /* margin-top: 20px;
+ */
     @include md {
         flex-direction: column;
         overflow-y: auto;
@@ -114,6 +115,7 @@
             .title {
                 font-weight: bold;
                 font-size: 18px;
+                margin-left: 15px;
             }
 
             .feature {
@@ -135,7 +137,7 @@
                 flex-direction: column;
                 gap: 20px;
                 padding: 20px 10px;
-                background-color: white;
+                background-color: #fcf5f3;
                 border-radius: 10px;
             }
 
@@ -143,7 +145,7 @@
                 display: flex;
                 gap: 20px;
                 padding: 20px 10px;
-                background-color: white;
+                background-color: #fcf5f3;
                 border-radius: 10px;
                 justify-content: space-between;
 
@@ -163,7 +165,7 @@
                 display: flex;
                 gap: 20px;
                 padding: 20px 10px;
-                background-color: white;
+                background-color: #fcf5f3;
                 border-radius: 10px;
                 justify-content: space-between;
             }
@@ -175,7 +177,7 @@
 
             .buttons {
                display: flex;
-               justify-content: space-between;
+               justify-content: space-around;
 
                button {
                 padding: 20px;

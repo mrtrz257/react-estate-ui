@@ -1,9 +1,9 @@
 export const listData = [
     {
       id: 1,
-      title: "A Great Apartment Next to the Beach!",
+      title: "A Great Apartment Next to the River!",
       img: "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      bedroom: 2,
+      bedroom: 1,
       bathroom: 1,
       price: 1000,
       address: "456 Park Avenue, London",
@@ -99,7 +99,7 @@ export const listData = [
       "https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "https://images.pexels.com/photos/2467285/pexels-photo-2467285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     ],
-    bedRooms: 2,
+    bedRooms: 1,
     bathroom: 1,
     size: 861,
     latitude: 51.5074,
@@ -110,7 +110,7 @@ export const listData = [
     bus: "100m away",
     restaurant: "50m away",
     description:
-      "Future alike hill pull picture swim magic chain seed engineer nest outer raise bound easy poetry gain loud weigh me recognize farmer bare danger. actually put square leg vessels earth engine matter key cup indeed body film century shut place environment were stage vertical roof bottom lady function breeze darkness beside tin view local breathe carbon swam declared magnet escape has from pile apart route coffee storm someone hold space use ahead sheep jungle closely natural attached part top grain your grade trade corn salmon trouble new bend most teacher range anybody every seat fifteen eventually",
+      "One bedroom, one bathroom coop apartment, 4th floor (6 story elevator building). Eat-kitchen and bathroom with windows, parquet floors through all apartment. Completely renovated, extremely bright and spacious ,huge and separate living room and bedroom , large hallway , large costumes made kitchen with ...",
   };
   
   export const userData = {
@@ -118,3 +118,26 @@ export const listData = [
     name: "John Doe",
     img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   };
+
+  export const messages =[ 
+    {
+      id: 1,
+      message: "This is an example of a message",
+    },
+    {
+      id: 2,
+      message: "This is an example of a really long message",
+    },
+    {
+      id: 3,
+      message: "This is a short message",
+    },
+    {
+      id: 4,
+      message: "another example",
+    },
+    {
+      id: 5,
+      message: "OK!!",
+    },
+];

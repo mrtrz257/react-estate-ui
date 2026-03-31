@@ -76,7 +76,7 @@ export const SinglePage = () => {
             </div>
             <div className="size">
               <img src="/bed.png" alt="bed-img" />
-              <span>2 bed/s</span>
+              <span>1 bed/s</span>
             </div>
             <div className="size">
               <img src="/bath.png" alt="bath-img" />

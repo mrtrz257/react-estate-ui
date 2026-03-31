@@ -61,6 +61,7 @@
             border: none;
             cursor: pointer;
             background-color: #fece51;
+            transition: all 0.2s ease;
 
             @include layout.sm {
                 position: relative;
@@ -71,6 +72,10 @@
             img {
               width: 24px;
               height: 24px;  
+            }
+
+            &:hover {
+                background-color: #e2b952;
             }
         }
     }

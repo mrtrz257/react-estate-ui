@@ -7,15 +7,15 @@ nav {
     align-items: center;
 
     a {
-        transition: all 0.4s ease;
+        transition: all 0.2s ease;
+        
 
         @include layout.sm {
             display: none;
         }
         
-
         &:hover {
-            scale: 1.04;
+            color: #fece51;
         }
     }
 
@@ -44,6 +44,10 @@ nav {
 
             img {
                 width: 28px;
+            }
+
+            &:hover {
+            color: black;
             }
         }
     }
@@ -103,6 +107,10 @@ nav {
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                }
+                &:hover {
+                    color: black;
+                    background-color: #e2b952;
                 }
             }
         }

@@ -41,6 +41,11 @@
                     cursor: pointer;
                     border: none;
                     border-radius: 7px;
+                    transition: all 0.2s ease;
+
+                    &:hover {
+                        background-color: #e2b952;
+                    }
                 }
             }
 
@@ -68,6 +73,7 @@
     .chatContainer {
         flex: 2;
         height: 100%;
+        background-color: #fcf5f3;
 
         @include md {
             flex: none;

@@ -12,10 +12,8 @@ const HomePage = () => {
                 </h1>
 
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                    explicabo suscipit cum eius, iure est nulla animi consequatur
-                    facilis id pariatur fugit quos laudantium temporibus dolor ea
-                    repellat provident impedit!
+                    Search places to buy or rent. You can search based on city, minimum
+                    and maximum price. Find the house that fits your necesities!
                 </p>
 
                 <SearchBar />
@@ -31,7 +29,7 @@ const HomePage = () => {
                     </div>
                     <div className="box">
                         <h1>1200</h1>
-                        <h2>Property Ready</h2>
+                        <h2>Properties Ready</h2>
                     </div>
                 </div>
 

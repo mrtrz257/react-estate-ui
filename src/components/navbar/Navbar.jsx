@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="left">
             <a href="/" className="logo">
               <img src="/logo.png" alt="estate-logo" />
-              <span>LamaEstate</span>
+              <span>ReactEstate</span>
             </a>
 
             <a href="/">Home</a>
