@@ -53,7 +53,7 @@
                         }
                         .price {
                             padding: 5px;
-                            background-color: rgba(254, 205, 81, 0.438);
+                            background-color: #fece51;
                             border-radius: 5px;
                             width: max-content;
                             font-size: 20px;
@@ -68,7 +68,7 @@
                         gap: 20px;
                         padding: 0px 50px;
                         border-radius: 10px;
-                        background-color: rgba(254, 205, 81, 0.438);
+                        background-color: #fece51;
                         font-weight: 600;
 
                         @include sm {
@@ -186,15 +186,12 @@
                 gap: 5px;
                 background-color: white;
                 border: 1px solid #fece51;
-                border-radius: 5px;
                 cursor: pointer;
+                
 
                 &:hover {
-                    text-decoration: underline;
-                }
-
-                &:active {
-                    background-color: hsl(0, 0%, 90%);
+                    background-color: #fece51;
+                    border: 1px solid gray;
                 }
 
                 img {

@@ -22,29 +22,29 @@ const Chat = () => {
                 <img src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o=" 
                 alt="profile-img" />
                 <span>Mary Gold</span>
-                <p>{messages[1].message.length > 25 ? messages[1].message.substring(0, 25)+"..." : messages[1].message}</p>
+                <p onClick={()=>setChat(true)}>{messages[1].message.length > 25 ? messages[1].message.substring(0, 25)+"..." : messages[1].message}</p>
             </div>
             <div className="message">
                 <img src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o=" 
                 alt="profile-img" />
                 <span>Mike Smith</span>
-                <p>{messages[2].message.length > 25 ? messages[2].message.substring(0, 25)+"..." : messages[2].message}</p>
+                <p onClick={()=>setChat(true)}>{messages[2].message.length > 25 ? messages[2].message.substring(0, 25)+"..." : messages[2].message}</p>
             </div>
             <div className="message">
                 <img src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o=" 
                 alt="profile-img" />
                 <span>Martin Gonzalez</span>
-                <p>{messages[3].message.length > 25 ? messages[3].message.substring(0, 25)+"..." : messages[3].message}</p>
+                <p onClick={()=>setChat(true)}>{messages[3].message.length > 25 ? messages[3].message.substring(0, 25)+"..." : messages[3].message}</p>
             </div>
             <div className="message">
                 <img src="https://media.istockphoto.com/id/1300845620/vector/user-icon-flat-isolated-on-white-background-user-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=yBeyba0hUkh14_jgv1OKqIH0CCSWU_4ckRkAoy2p73o=" 
                 alt="profile-img" />
                 <span>Steve Sanderson</span>
-                <p>{messages[4].message.length > 25 ? messages[4].message.substring(0, 25)+"..." : messages[4].message}</p>
+                <p onClick={()=>setChat(true)}>{messages[4].message.length > 25 ? messages[4].message.substring(0, 25)+"..." : messages[4].message}</p>
             </div>
         </div>
 
-        <hr />
+        
 
         {chat && (<div className="chatBox">
             <div className="top">
